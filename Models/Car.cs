@@ -39,6 +39,11 @@ namespace Dealership {
     {
       return (Price < maxPrice);
     }
+
+    public bool CheckMilage(int maxMilage)
+    {
+      return (Miles < maxMilage);
+    }
   }
 
 }
